@@ -82,7 +82,7 @@
 
 		this.score = new ScoreBoard({
 			context: this.context, 
-			left: this.canvas.width - 10, 
+			left: this.canvas.width - 381,  
 			bottom: 26,
 			colour: DEFAULT_COLOUR
 		});

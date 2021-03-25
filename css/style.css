@@ -1,5 +1,5 @@
 html, body {
-	background: #eee;
+	background: white;
 	font-size: 15px;
 	font-family: Arial;
 	margin: 0;
@@ -29,11 +29,21 @@ body {
 	height: 40px;
 	border: none;
 	border-radius: 20px;
-	background-color: blue;
+	background-color:  green;
 	color: white;
 	font-size: 18px;
 	outline: none;
 	display: none;
+}
+.btn2{
+	width: 100px;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	background-color: green;
+	color: white;
+	font-size: 18px;
+	outline: none;
 }
 
 @media(max-width: 1024px){
