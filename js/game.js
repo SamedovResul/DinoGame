@@ -44,6 +44,7 @@
 	button.addEventListener('click', function(e){
 			btnkeyup()
 			setTimeout(function(){spacePressed = false;},30)
+			button.innerHTML = 'Tullan'
 		})
 	document.addEventListener('keydown', keydown, false );
 	document.addEventListener('keyup', keyup, false );
