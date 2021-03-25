@@ -18,7 +18,7 @@
 
 	ScoreBoard.prototype.draw = function(context, offset) {
 		context.fillStyle = this.colour;
-		context.font = "16px Courier";
+		context.font = "25px Courier";
 		context.textAlign = "right"; 
 		context.fillText(formatOffset(offset), this.x, this.y);
 	};
