@@ -20,6 +20,8 @@ body {
 .controls {
 	text-align: right;
 	color: #aaa;
+	text-align: center;
+	font-size: 20px;
 }
 
 .btn{
@@ -38,5 +40,8 @@ body {
 	.btn{
 		display: block;
 		margin: 40px auto;
+	}
+	.controls {
+		display: none;
 	}
 }

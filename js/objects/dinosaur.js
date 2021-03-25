@@ -65,7 +65,7 @@
 		// context.fillRect(x + 7, y - 14, 22, 18);
 
 		// Dino!
-		context.fillStyle = this.colour;
+		context.fillStyle = 'green';
 		
 		// tail
 		context.fillRect(x, y - 36, 2, 16);
